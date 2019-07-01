@@ -7,3 +7,5 @@ obj/Debug/netcoreapp2.1/EIP.csproj.FileListAbsolute.txt
 obj/project.assets.json
 obj/EIP.csproj.nuget.dgspec.json
 obj/EIP.csproj.nuget.cache
+obj
+bin

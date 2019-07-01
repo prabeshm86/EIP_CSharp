@@ -19,6 +19,11 @@ namespace EIP
             list.add("Fred");
             list.add("Mary");
             list.add("Bob");
+
+            list.get("Fred"); // -> ["Bob", "Jane"]
+
+            list.delete("Bob");
+            list.get("Fred");  //-> ["Mary", "Jane"]
         }
 
     }

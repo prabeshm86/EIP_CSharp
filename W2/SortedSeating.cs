@@ -56,13 +56,36 @@ public class JaneList
 
     }
 
-    public string get(string name)
+    public string[] get(string name)
     {
-        return string.Empty;
+        var curr = firstGuest;
+        while (curr != null)
+        {
+            if (curr.name == name) return new string[] {curr.prev?.name, curr.next?.name};
+            
+            curr = curr.next;
+        }
+        return new string[]{};
     }
 
     public void delete(string name)
     {
+        var curr = firstGuest;
+        while (curr != null)
+        {
+            if (curr.name == name) {
 
+               if (curr.prev != null) curr.prev.next = curr.next;
+               else firstGuest = curr.next;
+
+               if(curr.next != null) curr.next.prev = curr.prev;
+                curr.prev = null;
+                curr.next = null;
+
+                break;
+            }
+            
+            curr = curr.next;
+        }
     }
 }
