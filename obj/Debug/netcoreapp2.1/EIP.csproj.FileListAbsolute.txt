@@ -1,0 +1,11 @@
+/Users/prabeshmanandhar/EIP/bin/Debug/netcoreapp2.1/EIP.deps.json
+/Users/prabeshmanandhar/EIP/bin/Debug/netcoreapp2.1/EIP.runtimeconfig.json
+/Users/prabeshmanandhar/EIP/bin/Debug/netcoreapp2.1/EIP.runtimeconfig.dev.json
+/Users/prabeshmanandhar/EIP/bin/Debug/netcoreapp2.1/EIP.dll
+/Users/prabeshmanandhar/EIP/bin/Debug/netcoreapp2.1/EIP.pdb
+/Users/prabeshmanandhar/EIP/obj/Debug/netcoreapp2.1/EIP.csprojAssemblyReference.cache
+/Users/prabeshmanandhar/EIP/obj/Debug/netcoreapp2.1/EIP.csproj.CoreCompileInputs.cache
+/Users/prabeshmanandhar/EIP/obj/Debug/netcoreapp2.1/EIP.AssemblyInfoInputs.cache
+/Users/prabeshmanandhar/EIP/obj/Debug/netcoreapp2.1/EIP.AssemblyInfo.cs
+/Users/prabeshmanandhar/EIP/obj/Debug/netcoreapp2.1/EIP.dll
+/Users/prabeshmanandhar/EIP/obj/Debug/netcoreapp2.1/EIP.pdb
