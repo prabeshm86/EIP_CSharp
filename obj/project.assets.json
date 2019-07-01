@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/prabeshmanandhar/EIP/EIP.csproj",
+      "projectUniqueName": "/Users/prabeshmanandhar/EIP_CSharp/EIP.csproj",
       "projectName": "EIP",
-      "projectPath": "/Users/prabeshmanandhar/EIP/EIP.csproj",
+      "projectPath": "/Users/prabeshmanandhar/EIP_CSharp/EIP.csproj",
       "packagesPath": "/Users/prabeshmanandhar/.nuget/packages/",
-      "outputPath": "/Users/prabeshmanandhar/EIP/obj/",
+      "outputPath": "/Users/prabeshmanandhar/EIP_CSharp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

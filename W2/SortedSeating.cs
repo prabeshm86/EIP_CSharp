@@ -1,37 +1,68 @@
-public class Guest{
-    Guest prev;
-    Guest next;
+public class Guest
+{
+    public Guest prev;
+    public Guest next;
     public string name;
 
     public Guest(string name)
     {
-        this.name  = name;
-    }
-
-    public void addGuest(string name){
-        if(string.Compare(this.name, name) > 0){  //added name comes first
-        var guest = new Guest(name);
-        
+        this.name = name;
     }
 }
 
-public class JaneList{
+public class JaneList
+{
 
     Guest firstGuest;
-    public void add(string name){
-        if (firstGuest == null){
+    public void add(string name)
+    {
+        if (firstGuest == null)
+        {
             firstGuest = new Guest(name);
         }
-        else {
-            firstGuest.addGuest(name);
+
+        else
+        {
+            var guest = new Guest(name);
+
+            var current = firstGuest;
+
+            if (string.Compare(current.name, guest.name) > 0){
+                current.prev = guest;
+                guest.next = current;
+                this.firstGuest = guest;
+
+                return;
+            }
+                
+
+
+            while (string.Compare(current.name, name) < 0)
+            {
+                if (current.next == null)
+                    current.next = guest;
+                else if (string.Compare(current.next.name, guest.name) > 0)
+                {
+                    guest.prev = current;
+                    guest.next = current.next;
+                    current.next = guest;
+                    current.next.prev = guest;
+                    break;
+                }
+                else current = current.next;
+            }
+
         }
+
     }
 
-    public string get(string name){
+    public string get(string name)
+    {
         return string.Empty;
     }
 
-    public void delete(string name){
+    public void delete(string name)
+    {
 
     }
 }

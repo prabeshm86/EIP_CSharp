@@ -13,6 +13,12 @@ namespace EIP
             //Console.WriteLine(binary(100));
 
             //var result = permutations(new int[] { 1, 2, 3 });
+
+            var list = new JaneList();
+            list.add("Jane");  // jane makes sure to include herself
+            list.add("Fred");
+            list.add("Mary");
+            list.add("Bob");
         }
 
     }
